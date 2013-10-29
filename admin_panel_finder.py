@@ -27,7 +27,7 @@ def findAdmin():
 		except URLError as e:
 			continue
 		else:
-			print req_link
+			print "OK => ",req_link
 
 def Credit():
 	Space(9); print "#####################################"

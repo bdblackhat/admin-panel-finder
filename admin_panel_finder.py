@@ -11,7 +11,7 @@ def Space(j):
 
 
 def findAdmin():
-	f = open("/home/daniktertri/coding/git_clone/admin-panel-finder/link.txt","r")
+	f = open("/link.txt","r")
 	link = input("Enter Site Name \n(ex : example.com or www.example.com )")
 	print ("\n\nAvilable links : \n")
 	while True:
